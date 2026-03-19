@@ -66,13 +66,12 @@ article {
 .profile-table {
   flex: 1 1 auto;
   border-collapse: collapse;
-  background: #f8f8f8;
 }
 
-.profile-table th,
+
+.role-box td,
 .profile-table td {
   padding: 6px 10px;
-  border: 1px solid #ccc;
   text-align: left;
   vertical-align: top;
 }
@@ -92,7 +91,6 @@ article {
 
 .role-box h2 {
   margin: 0 0 8px 0;
-  text-align: center;      /* if you want it centered */
 }
 
 .role-box table {
@@ -101,13 +99,10 @@ article {
 }
 
 .role-box th,
-.role-box td {
+.profile-table th {
   padding: 6px 8px;
-  border: 1px solid #bbb;
-  text-align: left;
+  text-align: right;
   vertical-align: top;
 }
-
-
 
 
