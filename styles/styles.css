@@ -11,18 +11,13 @@ header {
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-  
+
 }
 
 .headerleft {
     display: flex;
     align-items: center;
-    gap: 10px;              
-}
-
-.headerleft h1 {
-    font-size: 1.5rem;
-    line-height: 1;
+    gap: 10px;  
 }
 
 .list {
@@ -39,7 +34,7 @@ footer {
 
 body {
     font-family:Arial, Helvetica, sans-serif;
-   margin: 0;
+    margin: 0;
 }
 
 h1, h2 {
@@ -47,7 +42,7 @@ h1, h2 {
 }
 
 main {
-    padding-left: 100px;
+    padding-left: 100px;     
     padding-right: 100px;
 }
 
@@ -60,3 +55,59 @@ article {
 .gap {
     line-height: 0;
 }
+
+.profile-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;               
+  margin: 10px 0;
+}
+
+.profile-table {
+  flex: 1 1 auto;
+  border-collapse: collapse;
+  background: #f8f8f8;
+}
+
+.profile-table th,
+.profile-table td {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Keep the image block-level (no stray inline whitespace) */
+.profile-row img {
+  display: block;
+}
+
+.role-box {
+  background-color: rgb(172, 172, 172);
+  padding: 10px;
+  margin: 0;               /* margin handled by profile-row gap */
+  flex: 0 0 auto;          /* don’t stretch the aside */
+  min-width: 220px;        /* optional: avoid too-narrow aside */
+}
+
+.role-box h2 {
+  margin: 0 0 8px 0;
+  text-align: center;      /* if you want it centered */
+}
+
+.role-box table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.role-box th,
+.role-box td {
+  padding: 6px 8px;
+  border: 1px solid #bbb;
+  text-align: left;
+  vertical-align: top;
+}
+
+
+
+
