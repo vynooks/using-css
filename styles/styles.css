@@ -68,7 +68,6 @@ article {
   border-collapse: collapse;
 }
 
-
 .role-box td,
 .profile-table td {
   padding: 6px 10px;
@@ -76,26 +75,13 @@ article {
   vertical-align: top;
 }
 
-/* Keep the image block-level (no stray inline whitespace) */
-.profile-row img {
-  display: block;
-}
-
 .role-box {
   background-color: rgb(172, 172, 172);
   padding: 10px;
-  margin: 0;               /* margin handled by profile-row gap */
-  flex: 0 0 auto;          /* don’t stretch the aside */
-  min-width: 220px;        /* optional: avoid too-narrow aside */
 }
 
 .role-box h2 {
-  margin: 0 0 8px 0;
-}
-
-.role-box table {
-  border-collapse: collapse;
-  width: 100%;
+  margin: 5px;
 }
 
 .role-box th,
