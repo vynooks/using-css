@@ -24,21 +24,29 @@
 <main>
     <h2>Timesheet</h2>
         <p>Enter hours for current work period:</p>
-    <div>
-    <form>
-        <label for="monday">Monday:</label>
-        <input type="text" id="monday" name="monday">
-        <label for="tuesday">Tuesday:</label>
-        <input type="text" id="tuesday" name="tuesday">
-        <label for="wednesday">Wednesday:</label>
-        <input type="text" id="wednesday" name="wednesday">   
-        <label for="thursday">Thursday:</label>
-        <input type="text" id="thursday" name="thursday">  
-        <label for="friday">Friday:</label>
-        <input type="text" id="friday" name="friday">     
-        <input type="submit" value="Submit">
+    <form class="timesheet-form">
+        <div class="day">
+            <label for="monday"><b>Monday:</b></label>
+            <input type="number" id="monday" name="monday">
+        </div>
+        <div class="day">
+            <label for="tuesday"><b>Tuesday:</b></label>
+            <input type="number" id="tuesday" name="tuesday">
+        </div>
+        <div class="day">
+            <label for="wednesday"><b>Wednesday:</b></label>
+            <input type="number" id="wednesday" name="wednesday">
+        </div>
+        <div class="day">
+            <label for="thursday"><b>Thursday:</b></label>
+            <input type="number" id="thursday" name="thursday">
+        </div>
+        <div class="day">
+            <label for="friday"><b>Friday:</b></label>
+            <input type="number" id="friday" name="friday">
+        </div>
+            <input type="submit" value="Submit" class="submit">
     </form>
-    </div>
 </main>
     <footer>
         <div>
